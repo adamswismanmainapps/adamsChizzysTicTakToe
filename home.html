@@ -10,12 +10,15 @@
 </head>
 <body>
     <header class="dataDisplay" >
-        <pre id="turnDisplay">
-            
-Turn: User #1
-        </pre>
+        <pre id="turnDisplay">Turn: User #1</pre>
+
     </header>
-    <div class="cellContainer">
+    <main class="cellContainer">
+        <div class="wonView" id="wonView">
+            <div class="close" id="close">X</div>
+            <hr>
+            <pre id="wonText">User #1 won the game</pre>
+        </div>
         <div class="cellBlock"></div>
         <div class="cellBlock"></div>
         <div class="cellBlock"></div>
@@ -25,22 +28,18 @@ Turn: User #1
         <div class="cellBlock"></div>
         <div class="cellBlock"></div>
         <div class="cellBlock"></div>
-    </div>
+    </main>
     <footer id="scoreLine" class="dataDisplay">
         <pre>
-            User #1 Wins: 0
-            User #2 Wins: 0
+ User #1 Wins: 0
+ User #2 Wins: 0
         </pre>
         <pre>
             User #1 Loss: 0
             User #2 Loss: 0
         </pre>
-        <pre>
-            Game Play: 0
-        </pre>
     </footer>
     <script src="script.js">
-
     </script>
 </body>
 </html>
