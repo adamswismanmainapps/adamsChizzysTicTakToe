@@ -1,0 +1,30 @@
+#welcomeButton{
+    background-image: linear-gradient(to left, red, purple);
+    background-size: 100% 100%;
+    width: 30vw;
+    border-radius: 20px;
+    border: solid 0.1px blue;
+    box-shadow: black 2px 3px 40px;
+}
+#welcomeButton:hover{
+    animation: gradientWave 1s ease infinite;
+
+
+}
+@keyframes gradientWave {
+    0%{
+        background-size: 100% 100%;
+    }
+    100%{
+        background-size: 200% 200%;
+    }
+}
+div{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 45vh;
+    padding: 15px 0;
+    letter-spacing: 0.6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
